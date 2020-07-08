@@ -1,10 +1,11 @@
 # Guide
 ## Building and Deploying
-1. For the server and logger
+For the server and logger
   1. Build and push the docker image to your repository
   1. update the `server.yml` and `logger.yml` to point to the correct image
   1. Deploy server and logger by applying the manfiests, e.g. `kubectl apply -f server.yml`
-1. Once deployed you can check its working correctly by checking the logs
+  
+Once deployed you can check its working correctly by checking the logs
    outputs of the two pods
 
 ## Using telepresence
